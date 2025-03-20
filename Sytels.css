@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ad07ee;
+    color: #086df0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0066cc; /* Color de fondo del encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #b006f3; /* Color del texto del h2 (morado) */
+    margin: 0;
+}
+
+/* Estilos para el slogan */
+.slogan {
+    color: #f10a89; /* Color del texto (rosa) */
+    background-color: #0cbcf1; /* Color de fondo (azul) */
+    text-align: center; /* Centrar el texto */
+    padding: 15px; /* Espacio interno */
+    font-size: 24px; /* Tamaño de la fuente */
+    font-family: 'Arial', sans-serif; /* Tipo de fuente */
+    margin: 10px auto; /* Margen superior e inferior, y centrado horizontalmente */
+    width: 80%; /* Ancho del slogan */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(2, 233, 60, 0.2); /* Sombra para dar profundidad */
+}
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #333; /* Fondo oscuro */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos en línea */
+    margin: 0 15px; /* Espacio entre elementos */
+}
+
+nav ul li a {
+    color: #ffffff; /* Color del texto (blanco) */
+    text-decoration: none; /* Quita el subrayado */
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ff5733; /* Cambia el color al pasar el mouse (naranja) */
+}
+img {
+    border: 2px solid #333; /* Borde para la imagen */
+    margin-top: 20px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0066cc;
+    color: #ffffff;
+}
+/* Estilos para la animación */
+.animacion {
+    width: 200px;
+    height: 100px;
+    background-color: #ff5733;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    animation: mover 2s infinite;
+}
+
+@keyframes mover {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+}
+video {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #333;
+}
+audio {
+    display: block;
+    margin: 20px auto;
+}
